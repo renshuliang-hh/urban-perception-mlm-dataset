@@ -56,34 +56,22 @@ urban-perception-mlm-dataset/
 
 #### 6 Emotional Dimensions:
 1. **Boringness** (`more_boring/`)
-   - Train: 1,348 pairs
-   - Test: 5 × 500 pairs (test1-test5)
-   - Images: 1,636 (train) + 2,660 (test)
+
 
 2. **Depression** (`more_depressing/`)
-   - Train: 1,821 pairs
-   - Test: 5 × 500 pairs (test1-test5)
-   - Images: 2,212 (train) + 3,440 (test)
+
 
 3. **Liveliness** (`livelier/`)
-   - Train: 3,389 pairs
-   - Test: 5 × 500 pairs (test1-test5)
-   - Images: 4,116 (train) + 3,040 (test)
+
 
 4. **Beauty** (`more_beautiful/`)
-   - Train: 3,101 pairs
-   - Test: 5 × 500 pairs (test1-test5)
-   - Images: 3,768 (train) + 3,200 (test)
+
 
 5. **Safety** (`safer/`)
-   - Train: 3,340 pairs
-   - Test: 5 × 500 pairs (test1-test5)
-   - Images: 4,064 (train) + 3,200 (test)
+
 
 6. **Wealth** (`wealthier/`)
-   - Train: 2,343 pairs
-   - Test: 5 × 500 pairs (test1-test5)
-   - Images: 2,848 (train) + 2,880 (test)
+
 
 ### 3. SFT Training Dataset (`sft_boring_dataset/`)
 - **3,425 street-view images** from global cities
@@ -179,17 +167,7 @@ more_boring,更无聊,缺少绿地，遍布且规整的建筑，没有特色建�
 }
 ```
 
-## 📈 Dataset Statistics
 
-| Dimension | Total Pairs | Training Pairs | Test Pairs | Total Images |
-|-----------|-------------|---------------|-----------|--------------|
-| Boringness | 3,848 | 1,348 | 2,500 | 4,296 |
-| Depression | 4,321 | 1,821 | 2,500 | 5,652 |
-| Liveliness | 5,889 | 3,389 | 2,500 | 7,156 |
-| Beauty | 5,601 | 3,101 | 2,500 | 6,968 |
-| Safety | 5,840 | 3,340 | 2,500 | 7,264 |
-| Wealth | 4,843 | 2,343 | 2,500 | 5,728 |
-| **Total** | **30,342** | **15,342** | **15,000** | **36,764** |
 
 ## 🏙️ Coverage
 
