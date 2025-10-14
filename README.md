@@ -238,7 +238,7 @@ If you use this dataset in your research, please cite:
 ```bibtex
 @dataset{urban_perception_mlm_2024,
   title={Urban Perception Assessment with Multimodal Large Language Models and Street-View Imagery Dataset},
-  author={Your Name},
+  author={shuliang ren},
   year={2024},
   publisher={GitHub},
   journal={GitHub repository},
@@ -259,9 +259,8 @@ This dataset is released under the **MIT License**. See the [LICENSE](LICENSE) f
 ## 📞 Contact
 
 For questions, suggestions, or collaboration opportunities:
-- **Email**: your.email@example.com
-- **GitHub Issues**: [Create an issue](https://github.com/yourusername/urban-perception-mlm-dataset/issues)
-- **Twitter**: [@yourusername](https://twitter.com/yourusername)
+- **Email**: renhusliang@stu.pku.edu.cn
+
 
 ---
 
