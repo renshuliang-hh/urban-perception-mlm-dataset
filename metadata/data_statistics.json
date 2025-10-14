@@ -1,0 +1,100 @@
+{
+  "dataset_name": "Urban Perception Assessment Dataset",
+  "version": "1.0.0",
+  "description": "Multimodal dataset for urban perception evaluation using street-view imagery",
+  "paper_title": "Urban Perception Assessment with Multimodal Large Language Models and Street-View Imagery: A Systematic Evaluation of Accuracy and Enhancement Strategies",
+  "creation_date": "2024-10-15",
+  "statistics": {
+    "total_image_pairs": 30342,
+    "total_images": 36764,
+    "emotions": {
+      "more_boring": {
+        "train_pairs": 1348,
+        "test_pairs": 2500,
+        "train_images": 1636,
+        "test_images": 2660,
+        "total_pairs": 3848,
+        "total_images": 4296
+      },
+      "more_depressing": {
+        "train_pairs": 1821,
+        "test_pairs": 2500,
+        "train_images": 2212,
+        "test_images": 3440,
+        "total_pairs": 4321,
+        "total_images": 5652
+      },
+      "livelier": {
+        "train_pairs": 3389,
+        "test_pairs": 2500,
+        "train_images": 4116,
+        "test_images": 3040,
+        "total_pairs": 5889,
+        "total_images": 7156
+      },
+      "more_beautiful": {
+        "train_pairs": 3101,
+        "test_pairs": 2500,
+        "train_images": 3768,
+        "test_images": 3200,
+        "total_pairs": 5601,
+        "total_images": 6968
+      },
+      "safer": {
+        "train_pairs": 3340,
+        "test_pairs": 2500,
+        "train_images": 4064,
+        "test_images": 3200,
+        "total_pairs": 5840,
+        "total_images": 7264
+      },
+      "wealthier": {
+        "train_pairs": 2343,
+        "test_pairs": 2500,
+        "train_images": 2848,
+        "test_images": 2880,
+        "total_pairs": 4843,
+        "total_images": 5728
+      }
+    },
+    "beijing_case_study": {
+      "entries": 6,
+      "emotions_covered": ["more_boring", "more_depressing", "livelier", "more_beautiful", "safer", "wealthier"],
+      "languages": ["English", "Chinese"]
+    },
+    "sft_dataset": {
+      "total_images": 3425,
+      "experiment_results": 5,
+      "models_tested": ["Qwen2.5-vl-7b-1", "other models"]
+    }
+  },
+  "file_structure": {
+    "csv_files": {
+      "emotion_data": "Included in each emotion directory",
+      "beijing_cases": "data/benchmark_emotion/beijing_data_case.csv"
+    },
+    "image_files": {
+      "benchmark_emotion": "Located in train_image/ and test_image/ subdirectories",
+      "sft_boring": "data/sft_boring_dataset/boring_data/"
+    },
+    "json_files": {
+      "sft_results": "data/sft_boring_dataset/"
+    }
+  },
+  "data_formats": {
+    "annotations": "CSV",
+    "images": "JPEG",
+    "results": "JSON",
+    "metadata": "JSON"
+  },
+  "geographic_coverage": {
+    "continents": 6,
+    "cities": "50+",
+    "image_sources": ["Google Street View", "Mapillary", "Municipal databases"]
+  },
+  "quality_metrics": {
+    "inter_annotator_agreement": 0.67,
+    "average_feedback_length_words": 24.5,
+    "confidence_score_mean": 3.8
+  }
+}
