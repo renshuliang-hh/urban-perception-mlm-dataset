@@ -1,4 +1,4 @@
-# Urban Perception Assessment with Multimodal Large Language Models and Street-View Imagery Dataset
+# Urban Perception with Multimodal Large Language Models and Street-View Imagery Dataset
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Dataset Size](https://img.shields.io/badge/Size-10%2B%20GB-blue.svg)](https://github.com/yourusername/urban-perception-mlm-dataset)
